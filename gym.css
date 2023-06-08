@@ -1,0 +1,87 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    position: relative;
+    height:100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgba(16, 121, 16, 0.542),rgba(0, 128, 0, 0.152),rgb(4, 4, 58) );
+}   
+.box
+{
+  color:rgba(252, 112, 12, 0.929);
+}
+.contact
+{
+    display:flex;
+    float: right;
+    align-items: flex-start;
+    gap: 20px;
+    padding-right: 40px;
+    font-weight:bold;
+}
+.chat
+{
+    border: 3px solid rgba(252, 112, 12, 0.929);
+    border-radius: 30%;
+    font-size: small;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: rgba(252, 112, 12, 0.929);
+}
+#header
+{
+    position: absolute;
+    font-size:22px;
+    top:22px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px ; 
+    padding-left: 20rem;
+}
+.heading
+{
+    color: rgba(252, 112, 12, 0.929);
+}
+#sidebar
+{
+    position: absolute;
+    top: 150px;
+    float:left;
+    border: 4px solid rgba(252, 112, 12, 0.929);
+    border-radius:10%;
+    margin-left: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 25px;
+    width: 400px;
+}
+.input
+{
+    opacity: 0.5;
+    font-weight: bold;
+}
+.submit
+{
+    border-radius:10px;
+    padding:0.5rem 0.5rem 0.5rem 0.5rem;
+    border-color: rgba(252, 112, 12, 0.929);
+    color: rgba(252, 112, 12, 0.929);
+    width: 350px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.chatbot
+{
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+}
